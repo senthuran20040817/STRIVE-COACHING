@@ -107,10 +107,12 @@ header button{
     font-size: 20px;
     border-radius: 10px;
     background-color: #cbcdcd;
+    transition: all 0.5s ease-in-out 0s;
 }
 
 #hero .boxes button:hover{
     background-color: #ffffff;
+    font-weight: bold;
 }
 
 #foundation{
@@ -141,6 +143,14 @@ header button{
     padding: 30px;
     background-color: #ffffff;
     border-radius: 15px;
+}
+
+.boxes .box{
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.boxes .box:hover{
+    transform: scale(1.01)
 }
 
 #foundation .boxes .box h3{
@@ -416,6 +426,7 @@ progress::-webkit-progress-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 #book_consultation .r_content img{
@@ -423,6 +434,7 @@ progress::-webkit-progress-bar {
     border: 5px solid #264191;
     border-radius: 15px;
     transform: rotate(4deg);
+    transition: all 0.5s ease-in-out 0s; 
 }
 
 #book_consultation .content{
@@ -452,6 +464,23 @@ progress::-webkit-progress-bar {
     border: none;
     color: white;
     cursor: pointer;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#book_consultation .l_content button:hover{
+    background-color:  white;
+}
+
+#book_consultation .l_content .btn1:hover{
+    color:#EE9800;
+}
+
+#book_consultation .l_content .btn2:hover{
+    color:#05297A;
+}
+
+#book_consultation:hover img{
+    transform: rotate(0deg);
 }
 
 #book_consultation .l_content .btn1{
