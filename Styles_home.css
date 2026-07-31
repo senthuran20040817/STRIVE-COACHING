@@ -82,11 +82,11 @@ header button{
     border: 15px solid #ffffff;
     border-radius: 15px;
     transform: rotate(4deg);
+    transition: all 0.8s ease-in-out 0s;
 }
 
 #hero .r_content img:hover {
     transform: rotate(0deg);
-    transition: 0.8s;
 }
 
 #hero .l_content .top {
@@ -122,7 +122,7 @@ header button{
 #hero .l_content button{
     border: none;
     cursor: pointer;
-
+    transition: all 0.3s ease-in 0s;
 }
 
 #hero .l_content .free_consult_btn {
@@ -133,6 +133,11 @@ header button{
     color: white;
     border-radius: 10px;
     font-size: 14px;
+    
+}
+
+#hero .l_content button:hover{
+    transform: scale(1.02);
 }
 
 #hero .l_content .view_program_btn {
@@ -143,10 +148,6 @@ header button{
     font-size: 14px;
     color: #05297A;
     border: 2px solid #C5C6C8;
-}
-
-#hero .l_content .view_program_btn:hover{
-    background-color: #ededed;
 }
 
 #our_mission{
@@ -180,7 +181,7 @@ header button{
     line-height: 1.5;
 }
 
-#our_mission .box1{
+#our_mission .box{
     display: flex;
     flex-direction: column;
     width: 270px;
@@ -191,19 +192,28 @@ header button{
     border-radius: 15px;
     background-color: #FFFFFF;
     color: #5C5F60;
+    transition: all 0.5s ease-in 0s;
 }
 
-#our_mission .box2{
-    display: flex;
-    flex-direction: column;
-    width: 270px;
-    height: 130px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #E2E2E2;
-    border-radius: 15px;
-    background-color: #FFFFFF;
-    color: #5C5F60;
+#our_mission .box1:hover{
+    background-color:#05297A;
+}
+
+#our_mission .box:hover{
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+#our_mission .box .digit{
+    transition: all 0.5s ease-in 0s;
+}
+
+#our_mission .box:hover .digit{
+    color: #ffffff;
+}
+
+#our_mission .box2:hover{
+    background-color:#EE9800;
 }
 
 #our_mission .digit{
@@ -247,6 +257,11 @@ header button{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
+}
+
+#why_choose_us .item_boxes div:hover{
+    transform: translate(0px,-10px);
 }
 
 #why_choose_us .item_boxes div{
@@ -257,15 +272,17 @@ header button{
     padding: 30px;
     text-align: left;
     border-radius: 20px;
+    border-bottom: 4px solid white;
+    transition: all 0.4s ease-in-out 0s;
 }
 
 #why_choose_us .item_boxes .box1:hover{
-    border-bottom: 4px solid #05297A;
+    border-color: #05297A;
 
 }
 
 #why_choose_us .item_boxes .box2:hover{
-    border-bottom: 4px solid #EE9800;
+    border-color: #EE9800;
 }
 
 #why_choose_us .item_boxes img{
@@ -311,6 +328,7 @@ header button{
     width: 505px;
     height: 250px;
     border-radius: 25px;
+    transition: all 0.5s ease-in-out 0s;
 }
 
 #subjects .content .about{
@@ -318,6 +336,10 @@ header button{
     padding-bottom:10px;
     color: #ededed;
 
+}
+
+#subjects .content:hover{
+    transform: scale(1.04);
 }
 
 #subjects .first_box{
@@ -385,10 +407,11 @@ header button{
     justify-content: space-between;
     gap: 25px;
     padding-top: 40px;
+   
 }
 
 #learning_formats .boxes div:hover{
-    transform: translateY(-6px);
+    transform: translateY(-10px);
 }
 
 #learning_formats .boxes div{
@@ -403,6 +426,7 @@ header button{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+     transition: all 0.4s ease-in-out 0s;
 }
 
 #learning_formats .boxes div h3{
@@ -465,6 +489,11 @@ header button{
     background-color: #264191;
     justify-content: center;
     border: 1px solid #5A73C5;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#feedback .boxes .box_content:hover{
+    transform: scale(1.01);
 }
 
 #feedback .boxes .box_content .comment{
@@ -535,6 +564,13 @@ header button{
     border-radius: 15px;
     font-size: 16px;
     cursor: pointer;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#contact button:hover{
+    background: white;
+    color:#EE9800;
+    font-weight: bold;
 }
 
 footer{
