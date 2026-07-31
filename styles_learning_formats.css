@@ -124,7 +124,27 @@ header button{
     display: flex;
     flex-direction: column;
     height: 540px;
+    transition: all 0.5s ease-in-out 0s;
 }
+
+#details .box img{
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#details .box:hover {
+    transform: scale(1.05);
+}
+
+
+#details .box:hover button{
+    color: white;
+    background-color: #EE9800;
+}
+
+#details .box:hover img{
+    transform: scale(1.2);
+}
+
 
 #details .box .top{
     width: 55px;
@@ -187,6 +207,7 @@ header button{
     font-size: 17px;
     cursor: pointer;
     background-color: white;
+    transition: all 0.5s ease-in-out 0s;
 }
 
 #details button:hover{
