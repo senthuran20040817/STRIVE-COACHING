@@ -254,6 +254,11 @@ header button{
 #trustees .schools img{
     width: 200px;
     border-radius: 20px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#trustees .schools img:hover{
+    transform: scale(1.05);
 }
 
 footer{
