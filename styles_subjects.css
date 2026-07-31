@@ -41,11 +41,13 @@ nav li a {
     text-decoration: none;
     color: #5D5F5F;
     font-weight: bold;
+    border-bottom: 2px solid white;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 nav li a:hover {
     color: #05297A;
-    border-bottom: 2px solid #05297A;
+    border-color:#05297A;
 }
 
 
@@ -64,6 +66,11 @@ header button{
     color : white;
     font-weight: bold;
     cursor: pointer;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+header button:hover{
+    transform: scale(1.05);
 }
 
 #hero{
