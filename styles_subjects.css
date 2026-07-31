@@ -395,7 +395,7 @@ progress::-moz-progress-bar {
 }
 
 progress::-webkit-progress-bar {
-    background-color: lightgrey;
+    background-color: rgb(237, 237, 237);
 }
 
 #advanced .boxes label{
