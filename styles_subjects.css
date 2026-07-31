@@ -1,0 +1,532 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body{
+    background-color: rgb(238 238 240);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 20px 40px;
+    border-bottom: 1px solid #C6C6C7;
+    background-color: white;
+}
+
+header h2 a{
+    text-decoration: none;
+    color: #05297A;
+    font-weight: 1000;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+    margin-left: 2px;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: #5D5F5F;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: #05297A;
+    border-bottom: 2px solid #05297A;
+}
+
+
+nav {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header button{
+    margin-left: auto;
+    height: 40px;
+    width: 180px;
+    border: none;
+    background-color: #264191;
+    border-radius: 5px;
+    color : white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#hero{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#hero h1{
+    color: #05297A;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+#hero .main{
+    font-size: 18px;
+    color: #5C5F60;
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+#hero .boxes{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 650px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #cbcdcd;
+    border-radius: 10px;
+}
+
+#hero .boxes button{
+    border: none;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #cbcdcd;
+}
+
+#hero .boxes button:hover{
+    background-color: #ffffff;
+}
+
+#foundation{
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#foundation .heading h2{
+    color: #05297A;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+#foundation .heading p{
+    color: #5C5F60;
+}
+
+#foundation .boxes{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#foundation .boxes .box{
+    width: 515px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+#foundation .boxes .box h3{
+    color: #05297A;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#foundation .boxes .box .passage{
+    color: #5C5F60;
+}
+
+#foundation .boxes .box .lists{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: start;
+    gap: 25px;
+    
+}
+
+#foundation .boxes .box .lists small{
+    background-color: #5C5F60;
+    padding: 3px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#foundation .boxes .box img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+#foundation .boxes .box2 .lists small{
+    background-color: #FFDDB8;
+    color: #472A00;
+    font-weight: bold;
+}
+
+#foundation .boxes .box1 .lists small{
+    background-color: #DCE1FF;
+    color: #05297A;
+    font-weight: bold;
+}
+
+#foundation progress{
+    width: 100%;
+    height: 15px;
+    appearance: none;
+    border: none; /* Removes default operating system borders */
+    border-radius: 10px; /* Rounded corners for the container */
+    overflow: hidden;
+}
+
+#foundation .boxes label{
+    padding-top: 5px;
+    display: flex;
+    justify-content: end;
+    color: #EE9800;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#curriculum{
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#curriculum .heading h2{
+    color: #05297A;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+#curriculum .heading p{
+    color: #5C5F60;
+}
+
+#curriculum .boxes{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#curriculum .boxes .box{
+    width: 515px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+#curriculum .boxes .box h3{
+    color: #05297A;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#curriculum .boxes .box .passage{
+    color: #5C5F60;
+}
+
+#curriculum .boxes .box .lists{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: start;
+    gap: 25px;
+    
+}
+
+#curriculum .boxes .box .lists small{
+    background-color: #5C5F60;
+    padding: 3px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#curriculum .boxes .box img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+#curriculum .boxes .box2 .lists small{
+    background-color: #FFDDB8;
+    color: #472A00;
+    font-weight: bold;
+}
+
+#curriculum .boxes .box1 .lists small{
+    background-color: #DCE1FF;
+    color: #05297A;
+    font-weight: bold;
+}
+
+#curriculum progress{
+    width: 100%;
+    height: 15px;
+    appearance: none;
+    border: none; /* Removes default operating system borders */
+    border-radius: 10px; /* Rounded corners for the container */
+    overflow: hidden;
+}
+
+#curriculum .boxes label{
+    padding-top: 5px;
+    display: flex;
+    justify-content: end;
+    color: #EE9800;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#advanced{
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#advanced .heading h2{
+    color: #05297A;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+#advanced .heading p{
+    color: #5C5F60;
+}
+
+#advanced .boxes{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#advanced .boxes .box{
+    width: 515px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+#advanced .boxes .box h3{
+    color: #05297A;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#advanced .boxes .box .passage{
+    color: #5C5F60;
+}
+
+#advanced .boxes .box .lists{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: start;
+    gap: 25px;
+    
+}
+
+#advanced .boxes .box .lists small{
+    background-color: #5C5F60;
+    padding: 3px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#advanced .boxes .box img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+#advanced .boxes .box2 .lists small{
+    background-color: #FFDDB8;
+    color: #472A00;
+    font-weight: bold;
+}
+
+#advanced .boxes .box1 .lists small{
+    background-color: #DCE1FF;
+    color: #05297A;
+    font-weight: bold;
+}
+
+#advanced progress{
+    width: 100%;
+    height: 15px;
+    appearance: none;
+    border: none; /* Removes default operating system borders */
+    border-radius: 10px; /* Rounded corners for the container */
+    overflow: hidden;
+}
+
+/* 1. Change the color of the moving FILL bar */
+progress::-webkit-progress-value {
+    background-color: #EE9800; /* Put your fill color here */
+}
+progress::-moz-progress-bar {
+    background-color: #EE9800; /* Must match the color above */
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgb(237, 237, 237);
+}
+
+#advanced .boxes label{
+    padding-top: 5px;
+    display: flex;
+    justify-content: end;
+    color: #EE9800;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#book_consultation{
+    margin: 50px 40px 50px 40px;
+    background-color: #05297A;
+    color: #ffffff;
+    padding: 80px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#book_consultation .r_content img{
+    width: 250px;
+    border: 5px solid #264191;
+    border-radius: 15px;
+    transform: rotate(4deg);
+}
+
+#book_consultation .content{
+    width: 500px;
+}
+
+#book_consultation .r_content{
+    text-align: center;
+}
+
+#book_consultation .l_content h2{
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+
+#book_consultation .l_content p{
+    line-height: 1.5;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+#book_consultation .l_content button{
+    height: 57px;
+    font-weight: bold;
+    margin-right: 13px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#book_consultation .l_content .btn1{
+    width: 180px;
+    background-color: #EE9800;
+}
+
+#book_consultation .l_content .btn2{
+    width: 200px;
+    background-color: #264191;
+}
+
+footer{
+    background-color: #9a9a9b2e;
+    padding: 50px 40px 15px 40px;
+}
+
+footer .information{
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .information .quick{
+    width: 230px;
+}
+
+footer .information p{
+    width: 295px;
+    line-height: 1.5;
+    color: #5C5F60;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #5C5F60;
+    font-size: 15px;
+}
+
+footer .information .quick .phone_no p{
+    color: #05297A;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer h3{
+    color: #05297A;
+}
+
+footer .quick h3{
+    font-weight:normal;
+    font-size: 16px;
+}
+
+footer .summary h3 a{
+    padding-bottom: 10px;
+    color: #05297A;
+    font-size: 25px;
+}
+
+#copyrights{
+    border-top: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    height: 70px;
+    background-color: #9a9a9b2e;
+    color: #5C5F60;
+}
+
+#copyrights small{
+    margin-left: 40px;
+}
